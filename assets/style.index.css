@@ -1,3 +1,67 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    border: none; 
+    outline: none; 
+    scroll-behavior: smooth; 
+    font-family: "Poppins", sans-serif; 
+  }
 body{
-    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: 100;
+    transition: 0.5s;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    transform: scale(1.1);
+    font-size:  1.75rem;;
+    text-decoration: underline;
+    color: #ffffff;
+}
+.navbar{
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent; 
+    border-radius: 3px; 
+    background-color: #ff0000;
+    margin-top: 20px;
+}
+.container{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    columns: 2;
+    justify-content: space-between;
+    margin-left: 60%;
+}
+
+img{
+    text-align: left;
+    width: 240px;
+    height: 64px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.text{
+    background-color: rgb(138, 136, 136);
+    margin-top: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
 }
