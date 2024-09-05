@@ -15,7 +15,7 @@ body{
     color: rgb(0, 0, 0);
 }
 
-a{
+.animacao{
     text-decoration: none;
     color: #000000;
     font-size: 1.25rem;
@@ -23,8 +23,9 @@ a{
     transition: 0.5s;
     padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
 }
-a:hover{
+.animacao:hover{
     transform: scale(1.1);
     font-size:  1.75rem;;
     text-decoration: underline;
