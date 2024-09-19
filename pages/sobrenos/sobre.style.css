@@ -1,0 +1,50 @@
+.menu ul{
+    display: flex;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+main{
+    padding: 20px;
+    text-align: center;
+}
+
+h3{
+    padding: 0VVVV;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #000000;
+}
+
+.equipe-section{
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.membro-equipe{
+    text-align: center;
+}
+
+.membro-eqipe img{
+    width: 120px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.membro-eqipe p{
+    font-size: 15px;
+    color: #000000;
+}
+
+.descricao-projeto p{
+    border-radius: 5px;
+}
