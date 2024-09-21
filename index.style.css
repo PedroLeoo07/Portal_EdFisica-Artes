@@ -59,3 +59,64 @@ body {
     transform: scale(1.1);
     color: rgb(0, 0, 0);
 }
+
+.site-footer {
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-social {
+    margin-bottom: 10px;
+}
+
+.footer-social p {
+    margin-bottom: 5px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.footer-left, .footer-right {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    flex-direction: row;
+}
+
+.footer-left li, .footer-right li {
+    margin: 0 5px; 
+    justify-content: center;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.divider {
+    border-left: 2px solid #ffffff; 
+    height: 50px;
+    margin: 0 10px;  
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
