@@ -16,3 +16,9 @@
 .menu ul li a:hover {
     background-color: #e30613; 
 }
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
