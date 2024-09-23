@@ -5,7 +5,7 @@
 }
 
 .menu ul li a {
-    color: rgb(0, 0, 0);
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     padding: 5px 10px;
@@ -40,4 +40,23 @@ p {
     text-align: center;
     font-size: 22px;
     color: #000000;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 0px; 
+    background-color: #ffffff; 
 }
